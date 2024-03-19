@@ -1,0 +1,234 @@
+body {
+  height: 2000px;
+  overflow: auto;
+}
+
+.HeaderContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.HeaderWrapper {
+  position: relative;
+  overflow: auto;
+}
+
+.SubTitle {
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 4em;
+  float: left;
+}
+
+.NameProf {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+.InfoWrapper {
+  text-align: left;
+}
+
+.NameProf span:first-child {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Cormonant;
+}
+
+.NameProf span:nth-child(2) {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.ContactWrapper > .ContactInfo > li {
+  width: 400px;
+  list-style: none;
+  margin-bottom: 1.2em;
+  line-height: 1.4em;
+}
+
+.SocialIcons img {
+  height: 34px;
+  cursor: pointer;
+}
+
+.SocialIcons {
+  display: flex;
+  gap: 1em;
+}
+
+.GoatPic {
+  height: 400px;
+}
+
+.PhotoWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 45%;
+  background: #8ea69b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.PhotoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #8ea69b;
+  position: relative;
+}
+
+.PhotoWrapper button {
+  margin-bottom: 1em;
+  padding: 1em 2.2em;
+  border: none;
+  background: rgb(1, 1, 10);
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.SectionTitle {
+  font-size: 30px;
+  font-family: Cormorant;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.FirstWord {
+  font-weight: 700;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.List li {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.List li.fade-in {
+  opacity: 0;
+}
+
+.HeadText {
+  font-weight: 700;
+}
+
+.WorkText {
+  width: 200px;
+  padding-left: 1em;
+  padding-top: 1em;
+  list-style: decimal;
+}
+
+.ListWork {
+  margin-top: 1em;
+}
+
+.Degree {
+  color: rgb(55, 55, 55);
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 8px;
+  margin-left: 14px;
+}
+
+.WorkName {
+  width: 450px;
+}
+
+.DownloadBtn {
+  margin-top: 1em;
+  border: 1px solid rgb(9, 9, 9);
+  padding: 0.5em;
+  background: none;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.DownloadBtn:hover {
+  background: black;
+  color: white;
+}
+
+.WebsiteLink {
+  font-style: italic;
+}
+
+.ProjectsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+
+.HeadTextLast {
+  float: right;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.WorkNameLast {
+  list-style: none;
+}
+
+.NavLinks {
+  display: flex;
+  gap: 1em;
+  position: absolute;
+  top: 20px;
+  left: 62px;
+}
+
+.NavLinks a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.NavLinks a:hover {
+  color: rgb(12, 41, 187);
+}
+
+.HeaderContainer {
+  scroll-behavior: smooth;
+}
+
+.ScrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 50%;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.ScrollToTop:hover {
+  background-color: #f0f0f0;
+}
