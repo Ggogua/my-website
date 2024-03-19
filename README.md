@@ -28,8 +28,6 @@
   <li>Open <a href="[http://localhost:3000](https://giorgigogua.netlify.app)">website</a> to view it in your browser.</li>
 </ol>
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 <h2>Contact</h2>
-<p>If you have any questions, suggestions, or just want to say hi, feel free to reach out to me at [your email address].</p>
+<p>If you have any questions, suggestions, or just want to say hi, feel free to reach out to me at giorgiggogua@gmail.com.</p>
